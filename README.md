@@ -21,3 +21,36 @@ lucid uses the baseline of how our brains respond as we complete tasks in differ
 
 Animations
 - https://rive.app/a/arxvo/files/flare/loading/preview
+
+
+## Edit your pubspec.yaml file
+
+- Third-party dependencies
+```
+dependencies:
+  audioplayers: ^0.15.1
+  flutter_svg: ^0.17.4
+  flare_flutter: ^2.0.3
+```
+
+- Assets
+```
+  assets:
+     - assets/audio/
+     - assets/icons/
+     - assets/logo/
+     - assets/flare/
+```
+
+- Fonts
+
+```
+fonts:
+    - family: SpaceMono
+      fonts:
+        - asset: assets/fonts/SpaceMono-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/SpaceMono-Regular.ttf
+```
+
+
